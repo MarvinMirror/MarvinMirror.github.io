@@ -1,16 +1,35 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About the Team
+subtitle: 4 Countries, 4 Backgrounds, 1 Mirror
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+![Marvin Team](/img/team/marvinmirror.jpg)
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+#Nastya Zimina
+##Co-founder, Project Manager, Developer
 
-What else do you need?
+**something about nastya**
 
-### my history
+![Nastya Zimina](/img/team/nastya_z.jpg)
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+#Eugeniu "Janea" Popa
+##Co-founder, Vice President, Senior Hardware Engineer
+
+**something about janea**
+
+![Janea Popa](/img/team/janea.jpg)
+
+#Kyle Murray
+##Developer
+
+**something about kyle**
+
+![Kyle Murray](/img/team/kyle.jpg)
+
+#Nastya Dosiak
+##Developer
+
+**something about nastya**
+
+![Nastya Dosiak](/img/team/nastya_d.jpg)
