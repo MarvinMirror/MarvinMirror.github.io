@@ -9,12 +9,12 @@ Development is on the up and up this week as we've toiled through training cours
 
 ![Weather Photo](/img/forecast.png)
 {% highlight ruby %}
-#=> Our first framework—pre css-grid—with weather and forecast features at any location in C or F.
+Our first framework—pre css-grid—with weather and forecast features at any location in C or F.
 {% endhighlight %}
 
 ![User Photo](/img/users.png)
 {% highlight ruby %}
-#=> We can display the current user as well as look up info for any current student.
+We can display the current user as well as look up info for any current student.
 {% endhighlight %}
 
 Unfortunately we've also discovered a major blocker this week with voice recognition AI software. Our original plan of working with Google Assistant has been scrapped, after assessing possible future costs. The Jasper Project offers us an open source solution but it unfortunately has been uncooperative in installation and has too many open issues for us to pursue that too deeply. Our likely course of action for our first prototype will be to employ a Voice-to-Text Node.js package and later implement DialogueFlow to allow our program to be somewhat intuitive.
