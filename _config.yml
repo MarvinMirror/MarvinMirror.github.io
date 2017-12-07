@@ -26,7 +26,7 @@ navbar-links:
   About The Team: "aboutme"
   Resources:
     - 42's Homepage: "http://www.42.us.org/"
-    - Intra: "https://www.intra.42.fr/"
+    - Intra: "https://intra.42.fr/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
