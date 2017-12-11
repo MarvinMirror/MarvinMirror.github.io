@@ -9,10 +9,10 @@ As we approach our first Demo Day, the pressure mounts to have some sort of prod
 
 A great leap forward is that Janea has—in very quick order—put together most of our hardware to produce and elegant and professional mirror with rear monitor:
 
-![Mirror Reflective](/img/mirror_reflect.jpg)
+![Mirror Reflective](/img/mirror_reflect.jpg =400x)
 # Our software has a home!
 
-![Mirror Blue Screen](/img/mirror_bs.jpg)
+![Mirror Blue Screen](/img/mirror_bs.jpg =400x)
 # Even in the light, the screen shows through nicely.
 
 On the software side, we've updated our styling to be more professional. Nastya D. has successfully given us the most recent announcements from 42's Slack and Facebook accounts to post on our app.
