@@ -9,19 +9,19 @@ As we approach our first Demo Day, the pressure mounts to have some sort of prod
 
 A great leap forward is that Janea has—in very quick order—put together most of our hardware to produce and elegant and professional mirror with rear monitor:
 
-![Mirror Reflective](/img/mirror_reflect.jpg =400x)
-# Our software has a home!
+<img src="/img/mirror_reflect.jpg" alt="Mirror Reflective" title="Mirror Reflective" style="width: 400px;"/>
+## Our software has a home!
 
 ![Mirror Blue Screen](/img/mirror_bs.jpg =400x)
-# Even in the light, the screen shows through nicely.
+## Even in the light, the screen shows through nicely.
 
 On the software side, we've updated our styling to be more professional. Nastya D. has successfully given us the most recent announcements from 42's Slack and Facebook accounts to post on our app.
 
 ![Announcements](/img/announcements.png)
-# Automatically grabs the most recent announcement.
+## Automatically grabs the most recent announcement.
 
 ![New Forecast](/img/forecast0.png)
-# Updated layout and styling to please our users.
+## Updated layout and styling to please our users.
 
 At this juncture, we're also diving back into Node.js fundamentals with learning about Promises and synchronous execution of asynchronous processes. This will allow us to use the results of one query to run subsequent queries. Another thing we are learning to implement is storing values and caching data in MongoDB using the Node package "mongoose".
 
