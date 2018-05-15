@@ -28,20 +28,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: relative;
     padding: 5rem;
     background-image: url(../img/team/marvinmirror.jpg);
     background-size: cover;
+    z-index: 10;
+    overflow: hidden;
     
-    & .card {
+    & .team-btn {
         align-self: flex-end;
         position: relative;
         height: 6rem;
         width: 12rem;
         background-color: var(--color-grey-light-4);
-        backface-visibility: hidden;
         border-radius: 100px;
-        overflow: hidden;
         box-shadow: var(--shadow-dark);
+        cursor: pointer;
         
         font-size: 1.6rem;
         font-weight: 600;
@@ -51,10 +53,88 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        transition: all .25s;
+        overflow: hidden;
+        
+
+        &:hover {
+            transform: scale(1.1);
+            transition: all .25s;
+
+            & > * {
+                background-image: linear-gradient(to right, var(--color-primary), var(--color-grey-light-2));
+            }
+        }
+
+        // &:hover &__inner--visible {
+        //     transform: translateY(100%);
+        // }
+
+        &:active {
+            transform: scale(1.05);
+        }
+        
+        &__inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 5rem;
+            width: 11rem;
+            background-image: linear-gradient(to right, var(--color-grey-light-2), var(--color-primary));
+            border-radius: 100px;
+            box-shadow: var(--shadow-dark);
+            position: relative;
+
+            // & > * {
+            //     display: inline-block;
+            //     height: 100%;
+            //     width: 100%;
+            //     transition: all .2s;
+            // }
+            
+            // &:hover &--invisible {
+            //     top: 0;
+            // }
+
+            // &--visible {
+            //     position: absolute;
+            //     transform: translateY(10px);
+            // }
+
+            // &--invisible {
+            //     position: absolute;
+            //     padding: 2rem 0;
+            //     left: 50%;
+            //     top: -100%;
+            //     transform: translateX(-50%);
+            // }
+        }
     }
 }
 
-.resource-buttons {
+.linkedin {
+    width: 8rem;
+}
+
+// .team-card {
+//     width: 72%;
+//     height: 48%;
+//     position: absolute;
+//     top: 20%;
+//     background-color: rgba(#f0eeee,0.7);
+//     z-index: 100;
+
+//     &__pic {
+
+//     }
+
+//     &__desc {
+
+//     }
+// }
+
+.links {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -62,25 +142,36 @@
     justify-content: space-around;
     background-color: var(--color-grey-light-1);
     padding: 5rem;
-
+}
     
-    &_btn {
-        display: flex;
-        padding: 2rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 75%;
-        height: 4rem;
-        border-radius: 2px;
-        color: black;
-        font-size: 2rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        background-color: var(--color-grey-light-4);
-        box-shadow: var(--shadow-dark);
-        &:not(:last-child) {
-            margin-bottom: 2.5rem;
-        }
+.link-btn {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 4rem;
+    border-radius: 2px;
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--color-grey-light-4);
+    box-shadow: var(--shadow-dark);
+    cursor: pointer;
+    transition: all .25s;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &:hover {
+        transform: translateY(-.5rem) scale(1.1);
+        background-color: var(--color-grey-light-3);
+    }
+
+    &:active {
+        transform: translateY(-.25rem) scale(1.05);
     }
 }
