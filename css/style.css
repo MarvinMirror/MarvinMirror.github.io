@@ -83,8 +83,6 @@
     .team-pics .team-btn:hover {
       transform: scale(1.1);
       transition: all .25s; }
-      .team-pics .team-btn:hover > * {
-        background-image: linear-gradient(to right, var(--color-primary), var(--color-grey-light-2)); }
     .team-pics .team-btn:active {
       transform: scale(1.05); }
     .team-pics .team-btn__inner {
@@ -93,7 +91,7 @@
       justify-content: center;
       height: 5rem;
       width: 11rem;
-      background-image: linear-gradient(to right, var(--color-grey-light-2), var(--color-primary));
+      background-color: var(--color-grey-light-3);
       border-radius: 100px;
       box-shadow: var(--shadow-dark);
       position: relative; }

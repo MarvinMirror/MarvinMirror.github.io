@@ -62,9 +62,9 @@
             transform: scale(1.1);
             transition: all .25s;
 
-            & > * {
-                background-image: linear-gradient(to right, var(--color-primary), var(--color-grey-light-2));
-            }
+            // & > * {
+            //     background-image: linear-gradient(to right, var(--color-primary), var(--color-grey-light-2));
+            // }
         }
 
         // &:hover &__inner--visible {
@@ -81,7 +81,7 @@
             justify-content: center;
             height: 5rem;
             width: 11rem;
-            background-image: linear-gradient(to right, var(--color-grey-light-2), var(--color-primary));
+            background-color: var(--color-grey-light-3);
             border-radius: 100px;
             box-shadow: var(--shadow-dark);
             position: relative;
