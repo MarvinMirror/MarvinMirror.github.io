@@ -74,6 +74,9 @@ body {
       margin: 0;
       max-width: 100%;
       width: 100%; } }
+  @media only screen and (max-width: 31.25em) {
+    .container {
+      padding: 0; } }
 
 .header {
   display: flex;
