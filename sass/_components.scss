@@ -18,7 +18,21 @@
         
         border: none;
         box-shadow: var(--shadow-dark);
-        
+
+        @media only screen and (max-width: $bp-large) {
+            width: 48rem;
+            height: 27rem;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            width: 36rem;
+            height: 22rem;
+        }
+
+        @media only screen and (max-width: $bp-phone) {
+            width: 25rem;
+            height: 15rem;
+        }
     }
 }
 
@@ -34,6 +48,27 @@
     background-size: cover;
     z-index: 10;
     overflow: hidden;
+
+    @media only screen and (max-width: $bp-largest) {
+        height: 54rem;
+    }
+
+    @media only screen and (max-width: $bp-large) {
+        height: 40rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        height: 30rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        height: 25rem;
+    }
+
+    @media only screen and (max-width: $bp-phone) {
+        height: 20rem;
+
+    }
     
     & .team-btn {
         align-self: flex-end;
@@ -57,19 +92,21 @@
         transition: all .25s;
         overflow: hidden;
         
+        @media only screen and (max-width: $bp-small) {
+            height: 3rem;
+            width: 8rem;
+            font-size: .3rem;
+        }
+        
+        @media only screen and (max-width: $bp-smallest) {
+            display: none;
+        }
 
         &:hover {
             transform: scale(1.1);
             transition: all .25s;
 
-            // & > * {
-            //     background-image: linear-gradient(to right, var(--color-primary), var(--color-grey-light-2));
-            // }
         }
-
-        // &:hover &__inner--visible {
-        //     transform: translateY(100%);
-        // }
 
         &:active {
             transform: scale(1.05);
@@ -79,36 +116,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 5rem;
-            width: 11rem;
+            height: 83%;
+            width: 91%;
             background-color: var(--color-grey-light-3);
             border-radius: 100px;
             box-shadow: var(--shadow-dark);
             position: relative;
-
-            // & > * {
-            //     display: inline-block;
-            //     height: 100%;
-            //     width: 100%;
-            //     transition: all .2s;
-            // }
-            
-            // &:hover &--invisible {
-            //     top: 0;
-            // }
-
-            // &--visible {
-            //     position: absolute;
-            //     transform: translateY(10px);
-            // }
-
-            // &--invisible {
-            //     position: absolute;
-            //     padding: 2rem 0;
-            //     left: 50%;
-            //     top: -100%;
-            //     transform: translateX(-50%);
-            // }
         }
     }
 }
@@ -116,23 +129,6 @@
 .linkedin {
     width: 8rem;
 }
-
-// .team-card {
-//     width: 72%;
-//     height: 48%;
-//     position: absolute;
-//     top: 20%;
-//     background-color: rgba(#f0eeee,0.7);
-//     z-index: 100;
-
-//     &__pic {
-
-//     }
-
-//     &__desc {
-
-//     }
-// }
 
 .links {
     width: 100%;
@@ -142,6 +138,11 @@
     justify-content: space-around;
     background-color: var(--color-grey-light-1);
     padding: 5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 3rem;
+    }
+
 }
     
 .link-btn {
@@ -151,7 +152,6 @@
     justify-content: center;
     align-items: center;
     width: 75%;
-    height: 4rem;
     border-radius: 2px;
     color: black;
     font-size: 2rem;
@@ -161,6 +161,15 @@
     box-shadow: var(--shadow-dark);
     cursor: pointer;
     transition: all .25s;
+    text-align: center;
+
+    @media only screen and (max-width: $bp-medium) {
+        font-size: 1.5rem;
+    }
+    
+    @media only screen and (max-width: $bp-smallest) {
+        width: 100%;
+    }
 
     &:not(:last-child) {
         margin-bottom: 3rem;
